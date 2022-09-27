@@ -118,8 +118,8 @@
 
 /***************  ESERCIZIO 11  ***************/
 
-.ex-10-icon:hover {
-  animation: rotate-2 1s linear;
+.ex-11-icon:hover {
+  animation: rotate-2 2s linear;
 }
 
 @keyframes rotate-2 {
@@ -128,7 +128,7 @@
   }
 
   75% {
-    transform: rotate(270deg);
+    transform: rotate(320deg);
   }
 
   100% {
@@ -138,5 +138,47 @@
 
 
 /***************  ESERCIZIO 12  ***************/
+
+.ex-12-button:hover {
+  text-decoration: underline;
+}
+
+.ex-12-button:hover .ex-12-top-white {
+  animation: move-top 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: move-bottom 2s linear;
+}
+
+@keyframes move-top {
+  0% {
+    left: 10%;
+  }
+
+  50% {
+    left: 68%;
+  }
+
+  100% {
+    left: 10%;
+  }
+}
+
+@keyframes move-bottom {
+  0% {
+    right: 20%;
+  }
+
+  50% {
+    right: 66%;
+  }
+
+  100% {
+    right: 20%;
+  }
+}
+
+
 
 /***************  ESERCIZIO 13  ***************/
