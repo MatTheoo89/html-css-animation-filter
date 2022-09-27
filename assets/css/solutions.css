@@ -90,6 +90,19 @@
 
 /***************  ESERCIZIO 9  ***************/
 
+.ex-9-img {
+  transition: all 1.7s;
+}
+
+.ex-9-img:hover {
+  transform: scale(1.5);
+
+  filter: sepia(.5) grayscale(.7);
+  border-radius: 20px;
+}
+
+
+
 /***************  ESERCIZIO 10  ***************/
 
 /***************  ESERCIZIO 11  ***************/
