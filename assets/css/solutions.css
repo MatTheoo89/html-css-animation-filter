@@ -183,4 +183,80 @@
 
 /***************  ESERCIZIO 13  ***************/
 
-/* Come si ruota angolo 90??? */
+/* Da perfezionare velocita omogenea e a sx esce rettangolo */
+
+.ex-13-button:hover {
+  text-decoration: underline;
+}
+
+.ex-13-button:hover .ex-13-top-white {
+  animation: move-top2 2s linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: move-bottom2 2s linear;
+}
+
+@keyframes move-top2 {
+  0% {
+    top: -10px;
+    left: 10%;
+  }
+
+  20% {
+    top: -20px;
+    left: 100%;
+  }
+
+  40% {
+    top: 64px;
+    left: 100%;
+  }
+
+  60% {
+    top: 64px;
+    left: -30%;
+  }
+
+  80% {
+    top: -20px;
+    left: -30%;
+  }
+
+  100% {
+    top: -10px;
+    left: 10%;
+  }
+}
+
+@keyframes move-bottom2 {
+  0% {
+    bottom: -10px;
+    right: 20%;
+  }
+
+  20% {
+    bottom: -20px;
+    right: 100%;
+  }
+
+  40% {
+    bottom: 64px;
+    right: 100%;
+  }
+
+  60% {
+    bottom: 64;
+    right: -30%;
+  }
+
+  80% {
+    bottom: -20px;
+    right: -30%;
+  }
+
+  100% {
+    bottom: -10px;
+    right: 20%;
+  }
+}
