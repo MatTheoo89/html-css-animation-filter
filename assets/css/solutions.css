@@ -55,13 +55,22 @@
 
 .ex-5-square:active {
   transform: scale(.6);
-
 }
 
 
 /***************  ESERCIZIO 6  ***************/
 
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+
+
 /***************  ESERCIZIO 7  ***************/
+
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+
 
 /***************  ESERCIZIO 8  ***************/
 
